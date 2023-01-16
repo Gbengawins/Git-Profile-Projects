@@ -7,18 +7,18 @@ document.addEventListener('DOMContentLoaded', function () {
     var listView = document.querySelector('.list-view');
     var gridView = document.querySelector('.grid-view');
     var projectList = document.querySelector('.Project-Boxes');
-    listView.addEventListener('click', function () {
-    gridView.classList.remove('active');
-    listView.classList.add('active');
-    projectList.classList.remove('JsGridView');
-    projectList.classList.add('JsListView');
+        listView.addEventListener('click', function () {
+        gridView.classList.remove('active');
+        listView.classList.add('active');
+        projectList.classList.remove('JsGridView');
+        projectList.classList.add('JsListView');
     });
         
-    gridView.addEventListener('click', function () {
-    gridView.classList.add('active');
-    listView.classList.remove('active');
-    projectList.classList.remove('JsListView');
-    projectList.classList.add('JsGridView');
+        gridView.addEventListener('click', function () {
+        gridView.classList.add('active');
+        listView.classList.remove('active');
+        projectList.classList.remove('JsListView');
+        projectList.classList.add('JsGridView');
     });
         
     document.querySelector('.messages-btn').addEventListener('click', function () {
