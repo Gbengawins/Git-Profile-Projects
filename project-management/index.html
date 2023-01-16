@@ -1,5 +1,6 @@
-<!DOCTYPE html>
+<!DOCType html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,103 +8,564 @@
     <link rel="stylesheet" href="/project-management/assets/css/style.css">
     <title>Project Management Dashboard</title>
 </head>
+
 <body>
     <div class="app-container">
         <div class="app-header">
             <div class="app-header-left">
                 <span class="app-icon"></span>
                 <P class="app-name">Portfolio</P>
-                <div class="search-Wrapper">
-                    <Input class="search-input" Type="text" Placeholder="search">
-                    <svg Xmlns="Http://www.w3.Org/2000/svg" Width="20" Height="20" Fill="none" Stroke="currentColor"
-                        Stroke-Linecap="round" Stroke-Linejoin="round" Stroke-Width="2" class="feather feather-search"
-                        ViewBox="0 0 24 24">
+                <div class="search-wrapper">
+                    <Input class="search-input" type="text" Placeholder="search">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+                        stroke-lineCap="round" stroke-lineJoin="round" stroke-width="2" class="feather feather-search"
+                        viewBox="0 0 24 24">
                         <defs></defs>
-                        <Circle Cx="11" Cy="11" R="8"></Circle>
-                        <path D="M21 21l-4.35-4.35"></path>
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="M21 21l-4.35-4.35"></path>
                     </svg>
                 </div>
             </div>
-            <Div Class="App-Header-Right">
-                <button Class="Mode-Switch" Title="Switch Theme">
-                    <svg Class="Moon" Fill="None" Stroke="CurrentColor" Stroke-Linecap="Round" Stroke-Linejoin="Round"
-                        Stroke-Width="2" Width="24" Height="24" ViewBox="0 0 24 24">
-                        <Defs></Defs>
-                        <Path D="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></Path>
+            <div class="app-header-right">
+                <button class="mode-switch" title="switch theme">
+                    <svg class="Moon" fill="none" stroke="currentColor" stroke-lineCap="round" stroke-lineJoin="round"
+                        stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
+                        <defs></defs>
+                        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
                     </svg>
                 </button>
-                <button Class="Add-Btn" Title="Add New Project">
-                    <svg Class="Btn-Icon" Xmlns="Http://www.w3.Org/2000/svg" Width="16" Height="16" ViewBox="0 0 24 24" Fill="None"
-                        Stroke="CurrentColor" Stroke-Width="3" Stroke-Linecap="Round" Stroke-Linejoin="Round"
-                        Class="Feather Feather-Plus">
-                        <Line X1="12" Y1="5" X2="12" Y2="19" />
-                        <Line X1="5" Y1="12" X2="19" Y2="12" />
+                <button class="add-brn" title="Add New Project">
+                    <svg class="Btn-Icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="3" stroke-lineCap="round"
+                        stroke-lineJoin="round" class="feather feather-plus">
+                        <line x1="12" Y1="5" x2="12" y2="19" />
+                        <line x1="5" Y1="12" x2="19" y2="12" />
                     </svg>
                 </button>
-                <button Class="notification-btn">
-                    <svg Xmlns="Http://www.w3.Org/2000/svg" Width="24" Height="24" ViewBox="0 0 24 24" Fill="None"
-                        Stroke="CurrentColor" Stroke-Width="2" Stroke-Linecap="Round" Stroke-Linejoin="Round"
-                        Class="Feather Feather-Bell">
-                        <Path D="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
-                        <Path D="M13.73 21a2 2 0 0 1-3.46 0" />
+                <button class="notification-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-lineCap="round" stroke-lineJoin="round"
+                        class="feather feather-bell">
+                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                        <path d="M13.73 21a2 2 0 0 1-3.46 0" />
                     </svg>
                 </button>
-                <button Class="Profile-Btn">
-                    <Img Src="Https://Assets.Codepen.Io/3306515/IMG_2025.Jpg" />
-                    <Span>Aybüke C.</Span>
+                <button class="profile-btn">
+                    <img src="/project-management/assets/images/Avatar1.jpg" />
+                    <span>Alee V.</span>
                 </button>
-            </Div>
-            <button Class="Messages-Btn">
-                <svg Xmlns="Http://www.w3.Org/2000/svg" Width="20" Height="20" ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor"
-                    Stroke-Width="2" Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Message-Circle">
-                    <Path
-                        D="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+            </div>
+            <button class="messages-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-lineCap="round" stroke-lineJoin="round"
+                    class="feather feather-Message-circle">
+                    <path
+                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
                 </svg>
             </button>
-            </Div>
-            <Div Class="App-Content">
-                <Div Class="App-Sidebar">
-                    <A Href="" Class="App-Sidebar-Link Active">
-                        <svg Xmlns="Http://www.w3.Org/2000/svg" Width="24" Height="24" ViewBox="0 0 24 24" Fill="None"
-                            Stroke="CurrentColor" Stroke-Width="2" Stroke-Linecap="Round" Stroke-Linejoin="Round"
-                            Class="Feather Feather-Home">
-                            <Path D="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                            <Polyline Points="9 22 9 12 15 12 15 22" />
-                        </svg>
-                    </A>
-                    <A Href="" Class="App-Sidebar-Link">
-                        <svg Class="Link-Icon" Xmlns="Http://www.w3.Org/2000/svg" Width="24" Height="24" Fill="None"
-                            Stroke="CurrentColor" Stroke-Linecap="Round" Stroke-Linejoin="Round" Stroke-Width="2"
-                            Class="Feather Feather-Pie-Chart" ViewBox="0 0 24 24">
-                            <Defs />
-                            <Path D="M21.21 15.89A10 10 0 118 2.83M22 12A10 10 0 0012 2v10z" />
-                        </svg>
-                    </A>
-                    <A Href="" Class="App-Sidebar-Link">
-                        <svg Xmlns="Http://www.w3.Org/2000/svg" Width="24" Height="24" ViewBox="0 0 24 24" Fill="None"
-                            Stroke="CurrentColor" Stroke-Width="2" Stroke-Linecap="Round" Stroke-Linejoin="Round"
-                            Class="Feather Feather-Calendar">
-                            <Rect X="3" Y="4" Width="18" Height="18" Rx="2" Ry="2" />
-                            <Line X1="16" Y1="2" X2="16" Y2="6" />
-                            <Line X1="8" Y1="2" X2="8" Y2="6" />
-                            <Line X1="3" Y1="10" X2="21" Y2="10" />
-                        </svg>
-                    </A>
-                    <A Href="" Class="App-Sidebar-Link">
-                        <svg Class="Link-Icon" Xmlns="Http://www.w3.Org/2000/svg" Width="24" Height="24" Fill="None"
-                            Stroke="CurrentColor" Stroke-Linecap="Round" Stroke-Linejoin="Round" Stroke-Width="2"
-                            Class="Feather Feather-Settings" ViewBox="0 0 24 24">
-                            <Defs />
-                            <Circle Cx="12" Cy="12" R="3" />
-                            <Path
-                                D="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" />
-                        </svg>
-                    </A>
+        </div>
+        <div class="app-content">
+            <div class="app-sidebar">
+                <a href="" class="app-sidebar-link active">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-lineCap="round" stroke-lineJoin="round"
+                        class="feather feather-home">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                        <polyline points="9 22 9 12 15 12 15 22" />
+                    </svg>
+                </a>
+                <a href="" class="app-sidebar-link">
+                    <svg class="Link-Icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                        stroke="currentColor" stroke-lineCap="round" stroke-lineJoin="round" stroke-width="2"
+                        class="feather feather-pie-chart" viewBox="0 0 24 24">
+                        <defs />
+                        <path d="M21.21 15.89A10 10 0 118 2.83M22 12A10 10 0 0012 2v10z" />
+                    </svg>
+                </a>
+                <a href="" class="app-sidebar-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-lineCap="round" stroke-lineJoin="round"
+                        class="feather feather-Calendar">
+                        <Rect X="3" Y="4" width="18" height="18" Rx="2" Ry="2" />
+                        <line x1="16" Y1="2" x2="16" y2="6" />
+                        <line x1="8" Y1="2" x2="8" y2="6" />
+                        <line x1="3" Y1="10" x2="21" y2="10" />
+                    </svg>
+                </a>
+                <a href="" class="app-sidebar-link">
+                    <svg class="Link-Icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                        stroke="currentColor" stroke-lineCap="round" stroke-lineJoin="round" stroke-width="2"
+                        class="feather feather-Settings" viewBox="0 0 24 24">
+                        <defs />
+                        <circle cx="12" cy="12" r="3" />
+                        <path
+                            d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z" />
+                    </svg>
+                </a>
+            </div>
+            <Div Class="Projects-Section">
+                <Div Class="Projects-Section-Header">
+                    <P>Projects</P>
+                    <P Class="Time">December, 12</P>
                 </Div>
-
+                <Div Class="Projects-Section-Line">
+                    <Div Class="Projects-Status">
+                        <Div Class="Item-Status">
+                            <Span Class="Status-Number">45</Span>
+                            <Span Class="Status-Type">In Progress</Span>
+                        </Div>
+                        <Div Class="Item-Status">
+                            <Span Class="Status-Number">24</Span>
+                            <Span Class="Status-Type">Upcoming</Span>
+                        </Div>
+                        <Div Class="Item-Status">
+                            <Span Class="Status-Number">62</Span>
+                            <Span Class="Status-Type">Total Projects</Span>
+                        </Div>
+                    </Div>
+                    <Div Class="View-Actions">
+                        <Button Class="View-Btn List-View" Title="List View">
+                            <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="24" Height="24" ViewBox="0 0 24 24"
+                                Fill="None" Stroke="CurrentColor" Stroke-Width="2" Stroke-Linecap="Round"
+                                Stroke-Linejoin="Round" Class="Feather Feather-List">
+                                <Line X1="8" Y1="6" X2="21" Y2="6" />
+                                <Line X1="8" Y1="12" X2="21" Y2="12" />
+                                <Line X1="8" Y1="18" X2="21" Y2="18" />
+                                <Line X1="3" Y1="6" X2="3.01" Y2="6" />
+                                <Line X1="3" Y1="12" X2="3.01" Y2="12" />
+                                <Line X1="3" Y1="18" X2="3.01" Y2="18" />
+                            </Svg>
+                        </Button>
+                        <Button Class="View-Btn Grid-View Active" Title="Grid View">
+                            <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="20" Height="20" ViewBox="0 0 24 24"
+                                Fill="None" Stroke="CurrentColor" Stroke-Width="2" Stroke-Linecap="Round"
+                                Stroke-Linejoin="Round" Class="Feather Feather-Grid">
+                                <Rect X="3" Y="3" Width="7" Height="7" />
+                                <Rect X="14" Y="3" Width="7" Height="7" />
+                                <Rect X="14" Y="14" Width="7" Height="7" />
+                                <Rect X="3" Y="14" Width="7" Height="7" />
+                            </Svg>
+                        </Button>
+                    </Div>
+                </Div>
+                <Div Class="Project-Boxes JsGridView">
+                    <Div Class="Project-Box-Wrapper">
+                        <Div Class="Project-Box" Style="Background-Color: #Fee4cb;">
+                            <Div Class="Project-Box-Header">
+                                <Span>December 10, 2020</Span>
+                                <Div Class="More-Wrapper">
+                                    <Button Class="Project-Btn-More">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="24" Height="24"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round"
+                                            Class="Feather Feather-More-Vertical">
+                                            <Circle Cx="12" Cy="12" R="1" />
+                                            <Circle Cx="12" Cy="5" R="1" />
+                                            <Circle Cx="12" Cy="19" R="1" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                            </Div>
+                            <Div Class="Project-Box-Content-Header">
+                                <P Class="Box-Content-Header">Web Designing</P>
+                                <P Class="Box-Content-Subheader">Prototyping</P>
+                            </Div>
+                            <Div Class="Box-Progress-Wrapper">
+                                <P Class="Box-Progress-Header">Progress</P>
+                                <Div Class="Box-Progress-Bar">
+                                    <Span Class="Box-Progress" Style="Width: 60%; Background-Color: #Ff942e"></Span>
+                                </Div>
+                                <P Class="Box-Progress-Percentage">60%</P>
+                            </Div>
+                            <Div Class="Project-Box-Footer">
+                                <Div Class="Participants">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1438761681033-6461ffad8d80?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=2550&Q=80"
+                                        Alt="Participant">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1503023345310-Bd7c1de61c7d?Ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=900&Q=60"
+                                        Alt="Participant">
+                                    <Button Class="Add-Participant" Style="Color: #Ff942e;">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="12" Height="12"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="3"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Plus">
+                                            <Path D="M12 5v14M5 12h14" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                                <Div Class="Days-Left" Style="Color: #Ff942e;">
+                                    2 Days Left
+                                </Div>
+                            </Div>
+                        </Div>
+                    </Div>
+                    <Div Class="Project-Box-Wrapper">
+                        <Div Class="Project-Box" Style="Background-Color: #E9e7fd;">
+                            <Div Class="Project-Box-Header">
+                                <Span>December 10, 2020</Span>
+                                <Div Class="More-Wrapper">
+                                    <Button Class="Project-Btn-More">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="24" Height="24"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round"
+                                            Class="Feather Feather-More-Vertical">
+                                            <Circle Cx="12" Cy="12" R="1" />
+                                            <Circle Cx="12" Cy="5" R="1" />
+                                            <Circle Cx="12" Cy="19" R="1" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                            </Div>
+                            <Div Class="Project-Box-Content-Header">
+                                <P Class="Box-Content-Header">Testing</P>
+                                <P Class="Box-Content-Subheader">Prototyping</P>
+                            </Div>
+                            <Div Class="Box-Progress-Wrapper">
+                                <P Class="Box-Progress-Header">Progress</P>
+                                <Div Class="Box-Progress-Bar">
+                                    <Span Class="Box-Progress" Style="Width: 50%; Background-Color: #4f3ff0"></Span>
+                                </Div>
+                                <P Class="Box-Progress-Percentage">50%</P>
+                            </Div>
+                            <Div Class="Project-Box-Footer">
+                                <Div Class="Participants">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1596815064285-45ed8a9c0463?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=1215&Q=80"
+                                        Alt="Participant">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1583195764036-6dc248ac07d9?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=2555&Q=80"
+                                        Alt="Participant">
+                                    <Button Class="Add-Participant" Style="Color: #4f3ff0;">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="12" Height="12"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="3"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Plus">
+                                            <Path D="M12 5v14M5 12h14" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                                <Div Class="Days-Left" Style="Color: #4f3ff0;">
+                                    2 Days Left
+                                </Div>
+                            </Div>
+                        </Div>
+                    </Div>
+                    <Div Class="Project-Box-Wrapper">
+                        <Div Class="Project-Box">
+                            <Div Class="Project-Box-Header">
+                                <Span>December 10, 2020</Span>
+                                <Div Class="More-Wrapper">
+                                    <Button Class="Project-Btn-More">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="24" Height="24"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round"
+                                            Class="Feather Feather-More-Vertical">
+                                            <Circle Cx="12" Cy="12" R="1" />
+                                            <Circle Cx="12" Cy="5" R="1" />
+                                            <Circle Cx="12" Cy="19" R="1" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                            </Div>
+                            <Div Class="Project-Box-Content-Header">
+                                <P Class="Box-Content-Header">Svg Animations</P>
+                                <P Class="Box-Content-Subheader">Prototyping</P>
+                            </Div>
+                            <Div Class="Box-Progress-Wrapper">
+                                <P Class="Box-Progress-Header">Progress</P>
+                                <Div Class="Box-Progress-Bar">
+                                    <Span Class="Box-Progress" Style="Width: 80%; Background-Color: #096c86"></Span>
+                                </Div>
+                                <P Class="Box-Progress-Percentage">80%</P>
+                            </Div>
+                            <Div Class="Project-Box-Footer">
+                                <Div Class="Participants">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1587628604439-3b9a0aa7a163?Ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fHdvbWFufGVufDB8fDB8&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=900&Q=60"
+                                        Alt="Participant">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1596815064285-45ed8a9c0463?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=1215&Q=80"
+                                        Alt="Participant">
+                                    <Button Class="Add-Participant" Style="Color: #096c86;">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="12" Height="12"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="3"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Plus">
+                                            <Path D="M12 5v14M5 12h14" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                                <Div Class="Days-Left" Style="Color: #096c86;">
+                                    2 Days Left
+                                </Div>
+                            </Div>
+                        </Div>
+                    </Div>
+                    <Div Class="Project-Box-Wrapper">
+                        <Div Class="Project-Box" Style="Background-Color: #Ffd3e2;">
+                            <Div Class="Project-Box-Header">
+                                <Span>December 10, 2020</Span>
+                                <Div Class="More-Wrapper">
+                                    <Button Class="Project-Btn-More">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="24" Height="24"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round"
+                                            Class="Feather Feather-More-Vertical">
+                                            <Circle Cx="12" Cy="12" R="1" />
+                                            <Circle Cx="12" Cy="5" R="1" />
+                                            <Circle Cx="12" Cy="19" R="1" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                            </Div>
+                            <Div Class="Project-Box-Content-Header">
+                                <P Class="Box-Content-Header">UI Development</P>
+                                <P Class="Box-Content-Subheader">Prototyping</P>
+                            </Div>
+                            <Div Class="Box-Progress-Wrapper">
+                                <P Class="Box-Progress-Header">Progress</P>
+                                <Div Class="Box-Progress-Bar">
+                                    <Span Class="Box-Progress" Style="Width: 20%; Background-Color: #Df3670"></Span>
+                                </Div>
+                                <P Class="Box-Progress-Percentage">20%</P>
+                            </Div>
+                            <Div Class="Project-Box-Footer">
+                                <Div Class="Participants">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1600486913747-55e5470d6f40?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=2550&Q=80"
+                                        Alt="Participant">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1587628604439-3b9a0aa7a163?Ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjR8fHdvbWFufGVufDB8fDB8&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=900&Q=60"
+                                        Alt="Participant">
+                                    <Button Class="Add-Participant" Style="Color: #Df3670;">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="12" Height="12"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="3"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Plus">
+                                            <Path D="M12 5v14M5 12h14" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                                <Div Class="Days-Left" Style="Color: #Df3670;">
+                                    2 Days Left
+                                </Div>
+                            </Div>
+                        </Div>
+                    </Div>
+                    <Div Class="Project-Box-Wrapper">
+                        <Div Class="Project-Box" Style="Background-Color: #C8f7dc;">
+                            <Div Class="Project-Box-Header">
+                                <Span>December 10, 2020</Span>
+                                <Div Class="More-Wrapper">
+                                    <Button Class="Project-Btn-More">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="24" Height="24"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round"
+                                            Class="Feather Feather-More-Vertical">
+                                            <Circle Cx="12" Cy="12" R="1" />
+                                            <Circle Cx="12" Cy="5" R="1" />
+                                            <Circle Cx="12" Cy="19" R="1" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                            </Div>
+                            <Div Class="Project-Box-Content-Header">
+                                <P Class="Box-Content-Header">Data Analysis</P>
+                                <P Class="Box-Content-Subheader">Prototyping</P>
+                            </Div>
+                            <Div Class="Box-Progress-Wrapper">
+                                <P Class="Box-Progress-Header">Progress</P>
+                                <Div Class="Box-Progress-Bar">
+                                    <Span Class="Box-Progress" Style="Width: 60%; Background-Color: #34c471"></Span>
+                                </Div>
+                                <P Class="Box-Progress-Percentage">60%</P>
+                            </Div>
+                            <Div Class="Project-Box-Footer">
+                                <Div Class="Participants">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1438761681033-6461ffad8d80?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=2550&Q=80"
+                                        Alt="Participant">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1503023345310-Bd7c1de61c7d?Ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfA%3D%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=900&Q=60"
+                                        Alt="Participant">
+                                    <Button Class="Add-Participant" Style="Color: #34c471;">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="12" Height="12"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="3"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Plus">
+                                            <Path D="M12 5v14M5 12h14" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                                <Div Class="Days-Left" Style="Color: #34c471;">
+                                    2 Days Left
+                                </Div>
+                            </Div>
+                        </Div>
+                    </Div>
+                    <Div Class="Project-Box-Wrapper">
+                        <Div Class="Project-Box" Style="Background-Color: #D5deff;">
+                            <Div Class="Project-Box-Header">
+                                <Span>December 10, 2020</Span>
+                                <Div Class="More-Wrapper">
+                                    <Button Class="Project-Btn-More">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="24" Height="24"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round"
+                                            Class="Feather Feather-More-Vertical">
+                                            <Circle Cx="12" Cy="12" R="1" />
+                                            <Circle Cx="12" Cy="5" R="1" />
+                                            <Circle Cx="12" Cy="19" R="1" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                            </Div>
+                            <Div Class="Project-Box-Content-Header">
+                                <P Class="Box-Content-Header">Web Designing</P>
+                                <P Class="Box-Content-Subheader">Prototyping</P>
+                            </Div>
+                            <Div Class="Box-Progress-Wrapper">
+                                <P Class="Box-Progress-Header">Progress</P>
+                                <Div Class="Box-Progress-Bar">
+                                    <Span Class="Box-Progress" Style="Width: 40%; Background-Color: #4067f9"></Span>
+                                </Div>
+                                <P Class="Box-Progress-Percentage">40%</P>
+                            </Div>
+                            <Div Class="Project-Box-Footer">
+                                <Div Class="Participants">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1600486913747-55e5470d6f40?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=2550&Q=80"
+                                        Alt="Participant">
+                                    <Img Src="Https://Images.Unsplash.Com/Photo-1583195764036-6dc248ac07d9?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=2555&Q=80"
+                                        Alt="Participant">
+                                    <Button Class="Add-Participant" Style="Color: #4067f9;">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="12" Height="12"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="3"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Plus">
+                                            <Path D="M12 5v14M5 12h14" />
+                                        </Svg>
+                                    </Button>
+                                </Div>
+                                <Div Class="Days-Left" Style="Color: #4067f9;">
+                                    2 Days Left
+                                </Div>
+                            </Div>
+                        </Div>
+                    </Div>
+                </Div>
+            </Div>
+            <Div Class="Messages-Section">
+                <Button Class="Messages-Close">
+                    <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="24" Height="24" ViewBox="0 0 24 24" Fill="None"
+                        Stroke="CurrentColor" Stroke-Width="2" Stroke-Linecap="Round" Stroke-Linejoin="Round"
+                        Class="Feather Feather-X-Circle">
+                        <Circle Cx="12" Cy="12" R="10" />
+                        <Line X1="15" Y1="9" X2="9" Y2="15" />
+                        <Line X1="9" Y1="9" X2="15" Y2="15" />
+                    </Svg>
+                </Button>
+                <Div Class="Projects-Section-Header">
+                    <P>Client Messages</P>
+                </Div>
+                <Div Class="Messages">
+                    <Div Class="Message-Box">
+                        <Img Src="Https://Images.Unsplash.Com/Photo-1438761681033-6461ffad8d80?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=2550&Q=80"
+                            Alt="Profile Image">
+                        <Div Class="Message-Content">
+                            <Div Class="Message-Header">
+                                <Div Class="Name">Stephanie</Div>
+                                <Div Class="Star-Checkbox">
+                                    <Input Type="Checkbox" Id="Star-1">
+                                    <Label For="Star-1">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="20" Height="20"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Star">
+                                            <Polygon
+                                                Points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </Svg>
+                                    </Label>
+                                </Div>
+                            </Div>
+                            <P Class="Message-Line">
+                                I Got Your First Assignment. It Was Quite Good. We Can Continue With The Next
+                                Assignment.
+                            </P>
+                            <P Class="Message-Line Time">
+                                Dec, 12
+                            </P>
+                        </Div>
+                    </Div>
+                    <Div Class="Message-Box">
+                        <Img Src="Https://Images.Unsplash.Com/Photo-1600486913747-55e5470d6f40?Ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=2550&Q=80"
+                            Alt="Profile Image">
+                        <Div Class="Message-Content">
+                            <Div Class="Message-Header">
+                                <Div Class="Name">Mark</Div>
+                                <Div Class="Star-Checkbox">
+                                    <Input Type="Checkbox" Id="Star-2">
+                                    <Label For="Star-2">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="20" Height="20"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Star">
+                                            <Polygon
+                                                Points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </Svg>
+                                    </Label>
+                                </Div>
+                            </Div>
+                            <P Class="Message-Line">
+                                Hey, Can Tell Me About Progress Of Project? I'm Waiting For Your Response.
+                            </P>
+                            <P Class="Message-Line Time">
+                                Dec, 12
+                            </P>
+                        </Div>
+                    </Div>
+                    <Div Class="Message-Box">
+                        <Img Src="Https://Images.Unsplash.Com/Photo-1543965170-4c01a586684e?Ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDZ8fG1hbnxlbnwwfDB8MHw%3D&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=900&Q=60"
+                            Alt="Profile Image">
+                        <Div Class="Message-Content">
+                            <Div Class="Message-Header">
+                                <Div Class="Name">David</Div>
+                                <Div Class="Star-Checkbox">
+                                    <Input Type="Checkbox" Id="Star-3">
+                                    <Label For="Star-3">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="20" Height="20"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Star">
+                                            <Polygon
+                                                Points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </Svg>
+                                    </Label>
+                                </Div>
+                            </Div>
+                            <P Class="Message-Line">
+                                Awesome! I Like It. We Can Schedule A Meeting For The Next One.
+                            </P>
+                            <P Class="Message-Line Time">
+                                Dec, 12
+                            </P>
+                        </Div>
+                    </Div>
+                    <Div Class="Message-Box">
+                        <Img Src="Https://Images.Unsplash.Com/Photo-1533993192821-2cce3a8267d1?Ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fHdvbWFuJTIwbW9kZXJufGVufDB8fDB8&Ixlib=Rb-1.2.1&Auto=Format&Fit=Crop&W=900&Q=60"
+                            Alt="Profile Image">
+                        <Div Class="Message-Content">
+                            <Div Class="Message-Header">
+                                <Div Class="Name">Jessica</Div>
+                                <Div Class="Star-Checkbox">
+                                    <Input Type="Checkbox" Id="Star-4">
+                                    <Label For="Star-4">
+                                        <Svg Xmlns="Http://Www.W3.Org/2000/Svg" Width="20" Height="20"
+                                            ViewBox="0 0 24 24" Fill="None" Stroke="CurrentColor" Stroke-Width="2"
+                                            Stroke-Linecap="Round" Stroke-Linejoin="Round" Class="Feather Feather-Star">
+                                            <Polygon
+                                                Points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                        </Svg>
+                                    </Label>
+                                </Div>
+                            </Div>
+                            <P Class="Message-Line">
+                                I Am Really Impressed! Can't Wait To See The Final Result.
+                            </P>
+                            <P Class="Message-Line Time">
+                                Dec, 11
+                            </P>
+                        </Div>
+                    </Div>
+                </Div>
+            </Div>
+        </Div>
+    </Div>
 
 
 
     <script src="/project-management/assets/js/main.js"></script>
 </body>
+
 </html>
