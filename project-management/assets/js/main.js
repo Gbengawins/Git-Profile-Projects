@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    var modeSwitch = document.querySelector('.Mode-Switch');
+    var modeSwitch = document.querySelector('.mode-switch');
     modeSwitch.addEventListener('click', function () { document.documentElement.classList.toggle('dark');
     modeSwitch.classList.toggle('active');
     });
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.messages-section').classList.add('show');
     });
         
-    document.querySelector('.Messages-Close').addEventListener('click', function() {
+    document.querySelector('.Messages-close').addEventListener('click', function() {
     document.querySelector('.messages-section').classList.remove('show');
     });
 });
